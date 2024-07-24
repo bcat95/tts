@@ -63,7 +63,7 @@ export default function TextToSpeechForm() {
       <form onSubmit={handleSubmit} className="space-y-4">
         <div>
           <label htmlFor="apiKey" className="block text-sm font-medium text-gray-700">
-            API KEY của bạn hoặc nhận API KEY tại nhóm <a href="https://zalo.me/g/myewnj459" target="_blank">Zalo này</a>
+            API KEY của bạn hoặc nhận API KEY tại nhóm <a href="https://goink.me/pp6o" target="_blank">Zalo này</a>
           </label>
           <input
             type="password"
