@@ -63,7 +63,7 @@ export default function TextToSpeechForm() {
       <form onSubmit={handleSubmit} className="space-y-4">
         <div>
           <label htmlFor="apiKey" className="block text-sm font-medium text-gray-700">
-            Mã Khóa: sk-proj-qnwjEkqwYZJTdj4LJNZGT3BlbkFJBiCN4kx0pqYpvCnmVQYE
+            API KEY của bạn hoặc nhận API KEY tại nhóm <a href="https://zalo.me/g/myewnj459" target="_blank">Zalo này</a>
           </label>
           <input
             type="password"
@@ -72,7 +72,7 @@ export default function TextToSpeechForm() {
             onChange={handleApiKeyChange}
             required
             className="text-gray-700 mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50"
-            placeholder="Nhận mã khóa có tại nhóm Chatvn"
+            placeholder="Nhập API KEY"
           />
         </div>
         <div>
